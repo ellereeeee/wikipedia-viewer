@@ -1,0 +1,128 @@
+body {
+  height: 100%;
+  background-color: #4D505B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7em;
+}
+
+a, a:hover, a:visited {
+     color: white;
+     text-decoration: none;
+}
+
+p {
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#main-div {
+  font-size: 1.5em;
+  width: 90%;
+}
+
+.form-search-input {
+  vertical-align: bottom;
+  margin-right: -2px;
+  width: 0px;
+  height: 40px;
+  border: 0;
+  transition: all 0.5s;
+}
+
+.search-input-open {
+  vertical-align: bottom;
+  padding: 0px 0px 0px 10px;
+  width: 200px;
+}
+
+.form-search-submit {
+  display: inline-block;
+  width: 45px;
+  height: 40px;
+  background-color: #16A79D;
+  color: white;
+  cursor: pointer;
+  line-height: 35px;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.form-search-red {
+  display: inline-block;
+  width: 45px;
+  height: 40px;
+  background-color: #CF4858;
+  color: white;
+  cursor: pointer;
+  line-height: 35px;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.credit {
+  margin-top: .5em;
+  text-align: center;
+  color: white;
+  width: 90%;
+}
+
+#result-0, #result-4, #result-8 {
+  background-color: #80628B;
+  color: white;
+  width: 80%;
+  margin-top: 2em;
+  padding: 2em 2em 2em 2em;
+}
+
+#result-1, #result-5, #result-9  {
+  background-color: #F4AC42;
+  color: white;
+  width: 80%;
+  margin-top: 2em;
+  padding: 2em 2em 2em 2em;
+}
+
+#result-2, #result-6 {
+  background-color: #CF4858;
+  color: white;
+  width: 80%;
+  margin-top: 2em;
+  padding: 2em 2em 2em 2em;
+}
+
+#result-3, #result-7 {
+  background-color: #16A79D;
+  color: white;
+  width: 80%;
+  margin-top: 2em;
+  padding: 2em 2em 2em 2em;
+}
+
+@media only screen and (min-width: 380px) {
+  .search-input-open {
+  width: 300px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  .search-input-open {
+  width: 400px;
+}
+}

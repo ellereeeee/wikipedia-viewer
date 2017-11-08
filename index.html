@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <div id="main-div">
+    <p style="text-align: center;"><a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random article</a></p>
+    <div>
+      <form id="search-form" style="text-align: center;">
+        <input id="search-input" type="text" style="text-align: center;" class="form-search-input" placeholder="Search..."><span id="search-button" class="form-search-submit">&#8981;</span>
+      </form>
+    </div>
+    <!-- close search bar -->
+    <p style="margin-top: .3em; text-align: center;">Click icon to search</p>
+  </div>
+  <!-- close main div -->
+  <div class="credit">
+    <span>Coded by <a href='https://www.freecodecamp.com/ellereeeee' target="_blank">Richard Ellery</a> with ☕ and <span style="color:red;">❤</span>.</span>
+  </div>
+  <div id="results-container" class="flex-container">
+  </div>
+  <!-- close results container div -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
