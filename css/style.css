@@ -126,3 +126,15 @@ html {
   width: 400px;
 }
 }
+
+@media screen and (min-width: 1200px) {
+  #result-0, #result-1, #result-2, #result-3, #result-4, #result-5, #result-6, #result-7, #result-8, #result-9 {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #result-0, #result-1, #result-2, #result-3, #result-4, #result-5, #result-6, #result-7, #result-8, #result-9 {
+    width: 40%;
+  }
+}
